@@ -1,1 +1,1 @@
-PlusPlus.flash(3, 3, 1000, 4)
+PlusPlus.flash(2,2,100,4)

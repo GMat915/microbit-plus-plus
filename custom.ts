@@ -4,11 +4,14 @@
 * Read more at https://makecode.microbit.org/blocks/custom
 */
 
-enum Arrow {
+enum Vertical {
     //% block="up"
     Up,
     //% block="down"
-    Down,
+    Down
+}
+
+enum Horizontal {
     //% block="left"
     Left,
     //% block="right"
@@ -39,17 +42,52 @@ namespace PlusPlus {
     }
 
     /**
-     * Draws and Arrow In a Certain Direction
-     * @param direction The Direction the Arrow is Pointing!
+     * Shows an Arrow In a Certain Vertical Direction
+     * @param vdirection The Direction the Arrow is Pointing!
      */
-    //% block="point an arrow facing $direction"
-    export function point(direction: Arrow): void {
-        basic.showLeds(`
+    //% block="point an vertical arrow facing $vdirection"
+    export function pointvertical(vdirection: Vertical): void {
+        if (Vertical == "Up") {
+            basic.showLeds(`
         . . # . .
         . # # # .
         # . # . #
         . . # . .
         . . # . .
         `)
+        } else {
+            basic.showLeds(`
+        . . # . .
+        . . # . .
+        # . # . #
+        . # # # .
+        . . # . .
+        `)
+        }
+    }
+
+    /**
+     * Shows an Arrow In a Certain Horizontal Direction
+     * @param hdirection The Direction the Arrow is Pointing!
+     */
+    //% block="point a horizontal arrow facing $hdirection"
+    export function pointhorizontal(hdirection: Horizontal): void {
+        if (Horizontal == "Left") {
+            basic.showLeds(`
+        . . # . .
+        . # . . .
+        # # # # #
+        . # . . .
+        . . # . .
+        `)
+        } else {
+            basic.showLeds(`
+        . . # . .
+        . . . # .
+        # # # # #
+        . . . # .
+        . . # . .
+        `)
+        }
     }
 }
