@@ -44,6 +44,12 @@ namespace PlusPlus {
      */
     //% block="point an arrow facing $direction"
     export function point(direction: Arrow): void {
-        
+        basic.showLeds(`
+        . . # . .
+        . # # # .
+        # . # . #
+        . . # . .
+        . . # . .
+        `)
     }
 }
