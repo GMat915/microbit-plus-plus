@@ -16,7 +16,7 @@ namespace PlusPlus {
      * @param interval How Long To Wait In Between On and Off Times!
      * @param time How Many Times You Want the LED to Flash!
      */
-    //% block flash at x $x and y $y with $interval milliseconds in between, but repeat this $time times
+    //% block="flash at x $x and y $y with $interval milliseconds in between, but repeat this $time times"
     export function flash(x: number, y: number, interval: number, time: number): void {
         // Add code here
         for (let index = 0; index < time; index++) {
