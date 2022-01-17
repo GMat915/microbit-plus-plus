@@ -23,6 +23,7 @@ namespace PlusPlus {
             led.plot(x, y)
             basic.pause(interval)
             led.unplot(x, y)
+            basic.pause(interval)
         }
     }
 }
