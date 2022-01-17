@@ -4,8 +4,19 @@
 * Read more at https://makecode.microbit.org/blocks/custom
 */
 
-/**
- * PlusPlus
+enum Arrow {
+    //% block="up"
+    Up,
+    //% block="down"
+    Down,
+    //% block="left"
+    Left,
+    //% block="right"
+    Right
+}
+
+ /* 
+ PlusPlus
  */
 //% weight=100 color=#0fbc11 icon=""
 namespace PlusPlus {
@@ -25,5 +36,14 @@ namespace PlusPlus {
             led.unplot(x, y)
             basic.pause(interval)
         }
+    }
+
+    /**
+     * Draws and Arrow In a Certain Direction
+     * @param direction The Direction the Arrow is Pointing!
+     */
+    //% block="point an arrow facing $direction"
+    export function point(direction: Arrow): void {
+        
     }
 }
