@@ -47,7 +47,7 @@ namespace PlusPlus {
      */
     //% block="point an vertical arrow facing $vdirection"
     export function pointvertical(vdirection: Vertical): void {
-        if (Vertical == "Up") {
+        if (vdirection == Vertical.Up) {
             basic.showLeds(`
         . . # . .
         . # # # .
@@ -72,7 +72,7 @@ namespace PlusPlus {
      */
     //% block="point a horizontal arrow facing $hdirection"
     export function pointhorizontal(hdirection: Horizontal): void {
-        if (Horizontal == "Left") {
+        if (hdirection == Horizontal.Left) {
             basic.showLeds(`
         . . # . .
         . # . . .
