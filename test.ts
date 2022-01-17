@@ -1,1 +1,1 @@
-// tests go here; this will not be compiled when this package is used as an extension.
+PlusPlus.flash(3, 3, 1000, 4)
