@@ -16,7 +16,7 @@ namespace PlusPlus {
      * @param interval How Long To Wait In Between On and Off Times!
      * @param time How Many Times You Want the LED to Flash!
      */
-    //% block
+    //% block flash at x $x and y $y with $interval milliseconds in between, but repeat this $time times
     export function flash(x: number, y: number, interval: number, time: number): void {
         // Add code here
         for (let index = 0; index < time; index++) {
@@ -24,14 +24,5 @@ namespace PlusPlus {
             basic.pause(interval)
             led.unplot(x, y)
         }
-    }
-
-    /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
-     */
-    //% block
-    export function fib(value: number): number {
-        return value <= 1 ? value : fib(value -1) + fib(value - 2);
     }
 }
