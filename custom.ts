@@ -21,7 +21,7 @@ enum Horizontal {
  /* 
  PlusPlus
  */
-//% weight=100 color=#0fbc11 icon=""
+//% weight=100 color=#0fbc11 icon="\uf2db"
 namespace PlusPlus {
     /**
      * Flashes a Certain LED a Certain Number of Times, With a Certian Interval
