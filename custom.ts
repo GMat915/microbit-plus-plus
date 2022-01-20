@@ -90,4 +90,20 @@ namespace PlusPlus {
         `)
         }
     }
+
+    /**
+     * Flips a Coin!
+     */
+    //% block="coin flip - place this in your desired spot to start the flip"
+    export function coinflip(): void {
+        basic.showIcon(IconNames.Diamond)
+        basic.showIcon(IconNames.SmallDiamond)
+        basic.showIcon(IconNames.Diamond)
+        basic.showIcon(IconNames.SmallDiamond)
+        if (Math.randomBoolean()) {
+            basic.showIcon(IconNames.Skull)
+        } else {
+            basic.showIcon(IconNames.Square)
+        }
+    }
 }
