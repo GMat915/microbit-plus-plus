@@ -7,7 +7,7 @@
  Flashes a Certain LED a Certain Number of Times, With a Certian Interval
 
  ```blocks
-
+plusplus.flash(2,2,1000,4)
  ```
 ## Use as Extension
 
