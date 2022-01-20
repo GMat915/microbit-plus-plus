@@ -1,6 +1,13 @@
 PlusPlus.flash(2,2,100,4)
 
 
+PlusPlus.pointhorizontal(Horizontal.Left)
+PlusPlus.pointhorizontal(Horizontal.Right)
+
+PlusPlus.pointvertical(Vertical.Up)
+PlusPlus.pointvertical(Vertical.Down)
+
+
 basic.showString("Press a For Coin Flip!")
 
 input.onButtonPressed(Button.A, () => {
