@@ -94,7 +94,7 @@ namespace PlusPlus {
     /**
      * Flips a Coin!
      */
-    //% block="coin flip - place this in your desired spot to start the flip"
+    //% block="coin flip"
     export function coinflip(): void {
         basic.showIcon(IconNames.Diamond)
         basic.showIcon(IconNames.SmallDiamond)
