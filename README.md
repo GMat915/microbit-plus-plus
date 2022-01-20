@@ -1,13 +1,13 @@
 
 > Open this page at [https://gmat915.github.io/microbit-plus-plus/](https://gmat915.github.io/microbit-plus-plus/)
 
-## Usage  #plusplusflash
+## Usage  #PlusPlusflash
 # Flash
 
  Flashes a Certain LED a Certain Number of Times, With a Certian Interval
 
  ```blocks
-plusplus.flash(2,2,1000,4)
+PlusPlus.flash(2,2,1000,4)
  ```
 ## Use as Extension
 
