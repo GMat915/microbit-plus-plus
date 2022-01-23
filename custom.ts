@@ -21,7 +21,7 @@ enum Horizontal {
  /* 
  PlusPlus
  */
-//% weight=100 color=#0fbc11 icon="\uf2db"
+//% weight=80 color=#0fbc11 icon="\uf2db"
 //% groups='["LEDs", "Games"]'
 namespace PlusPlus {
     /**

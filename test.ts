@@ -7,6 +7,8 @@ PlusPlus.pointhorizontal(Horizontal.Right)
 PlusPlus.pointvertical(Vertical.Up)
 PlusPlus.pointvertical(Vertical.Down)
 
+basic.clearScreen()
+basic.pause(1000)
 
 basic.showString("Press a For Coin Flip!")
 
