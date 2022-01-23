@@ -22,6 +22,7 @@ enum Horizontal {
  PlusPlus
  */
 //% weight=100 color=#0fbc11 icon="\uf2db"
+//% groups='["LEDs", "Games"]'
 namespace PlusPlus {
     /**
      * Flashes a Certain LED a Certain Number of Times, With a Certian Interval
@@ -31,6 +32,7 @@ namespace PlusPlus {
      * @param time How Many Times You Want the LED to Flash!
      */
     //% block="flash at x $x and y $y with $interval milliseconds in between, $time times"
+    //% group=LEDs
     export function flash(x: number, y: number, interval: number, time: number): void {
         // Add code here
         for (let index = 0; index < time; index++) {
@@ -46,6 +48,7 @@ namespace PlusPlus {
      * @param vdirection The Direction the Arrow is Pointing!
      */
     //% block="point an vertical arrow facing $vdirection"
+    //% group=LEDs
     export function pointvertical(vdirection: Vertical): void {
         if (vdirection == Vertical.Up) {
             basic.showLeds(`
@@ -71,6 +74,7 @@ namespace PlusPlus {
      * @param hdirection The Direction the Arrow is Pointing!
      */
     //% block="point a horizontal arrow facing $hdirection"
+    //% group=LEDs
     export function pointhorizontal(hdirection: Horizontal): void {
         if (hdirection == Horizontal.Left) {
             basic.showLeds(`
@@ -95,6 +99,7 @@ namespace PlusPlus {
      * Flips a Coin!
      */
     //% block="coin flip"
+    //% group=Games
     export function coinflip(): void {
         basic.showIcon(IconNames.Diamond)
         basic.showIcon(IconNames.SmallDiamond)
@@ -111,6 +116,7 @@ namespace PlusPlus {
      * Play Crashy Bird!
      */
     //% block="crashy bird"
+    //% group=Games
     export function crashybird(): void {
         let emptyObstacleY = 0
         let ticks = 0
