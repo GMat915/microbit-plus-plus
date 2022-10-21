@@ -159,7 +159,7 @@ namespace PlusPlus {
     /**
      * 7 Seconds Game!
      */
-    //% block="seven seconds"
+    //% block="7 seconds"
     //% group=Games
     export function sevenseconds(): void {
         let start = 0;
