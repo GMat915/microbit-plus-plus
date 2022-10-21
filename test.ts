@@ -10,7 +10,7 @@ PlusPlus.pointvertical(Vertical.Down)
 basic.clearScreen()
 basic.pause(1000)
 
-basic.showString("Press a For Coin Flip!")
+basic.showString("Press 'A' For Coin Flip!")
 
 input.onButtonPressed(Button.A, () => {
     basic.showIcon(IconNames.Diamond)
