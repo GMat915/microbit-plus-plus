@@ -13,18 +13,18 @@ PlusPlus.flash(2,2,1000,4)
 
 This repository can be added as an **extension** in MakeCode.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/gmat915/microbit-plus-plus** and import
+* Open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* Click On **New Project**
+* Click On **Extensions** Under the Gearwheel Menu
+* Paste **https://github.com/gmat915/microbit-plus-plus** and Click **Import**
 
 ## Edit this project ![Build status badge](https://github.com/gmat915/microbit-plus-plus/workflows/MakeCode/badge.svg)
 
 To edit this repository in MakeCode.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/gmat915/microbit-plus-plus** and click import
+* Open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* Click On **Import** Then Click On **Import URL**
+* Paste **https://github.com/gmat915/microbit-plus-plus** and Click **Import**
 
 #### Metadata (used for search, rendering)
 
